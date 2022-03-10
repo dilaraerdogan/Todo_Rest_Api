@@ -1,0 +1,31 @@
+{
+  "name": "nodejsolusturma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-server": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "webpack": "^5.69.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "live-server": "^1.2.1",
+    "mongoose": "^6.2.2",
+    "nodemailer": "^6.7.2",
+    "pug": "^3.0.2",
+    "slugify": "^1.6.5"
+  }
+}
